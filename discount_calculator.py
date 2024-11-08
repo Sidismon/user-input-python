@@ -5,7 +5,6 @@ def calculate_discount(price, discount_percent):
     price: The original price of the item.
     discount_percent: The discount percentage.
 
-
   Returns:
     The final price after applying the discount, or the original price if the discount is less than 20%.
   """
@@ -17,7 +16,6 @@ def calculate_discount(price, discount_percent):
     final_price = price
 
   return final_price
-
 
 
 if __name__ == "__main__":
